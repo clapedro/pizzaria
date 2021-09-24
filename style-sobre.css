@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+
+    background-image: url("images/fundo.jpg");
+
+}
+
+.container{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.cabecalho{
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #b22d00;
+    padding: 10px 30px;
+}
+
+.cabecalho h2{
+
+    color: white;
+    font-size: 25px;
+}
+
+.navegacao{
+    background-color: #d9a300;
+    padding: 10px 30px;
+}
+
+.menu-principal{
+    display: flex;
+    
+}
+
+.menu-principal li{
+
+    margin-right: 10px;
+
+}
+
+.menu-principal a{
+
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+
+}
+
+
+.conteudo{
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+.conteudo h3{
+
+    padding-top: 40px;
+    padding-bottom: 1px;
+    color: black;
+    font-size: 40px;
+
+}
+
+.pizzas-linha{
+
+
+    display: flex;
+    justify-content:space-between;       
+    
+    }
+
+.textos-linha{
+
+
+        display: flex;
+        justify-content:space-between;
+       
+        }
+
+figcaption{
+            text-align: center;
+            font-size: 14px;
+            padding-top: 4px;
+            
+        }
+
+.imagem-pizza{
+            width: 280px;
+    }
+
+
+
+.conteudo2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.titulo-noticia{
+
+    font-size: 22px;
+
+}
+
+.sabores{
+
+    font-size: 17px;
+
+}
+
+.sabores td{
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.sabores2{
+
+    display: flex;
+    
+}
+
+.imagem-forno{
+
+    padding-right: 15px;
+
+}
+
+.info aside{
+
+    color: red;
+
+}
+
+.rodape{
+
+    padding: 10px 30px;
+    color: white;
+    background-color: #333333;
+    font-size: 14px;
+}
+
+.pizza-tamanhos{
+
+    width: 120px;
+
+
+
+}
+
+.texto-historia{
+
+    font-size: 15px;
+    width: 430px;
+
+}
+
+.conteudo2-2{
+
+    display: flex;
+    justify-content:space-between;
+    
+
+}
+
+.coluna-3{
+
+    margin-right: 320px;
+
+}
+
+
+  
+
+
